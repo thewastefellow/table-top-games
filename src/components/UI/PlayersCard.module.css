@@ -1,0 +1,28 @@
+.container {
+  margin: auto;
+  margin-bottom: 25px;
+  background-color: rgb(122, 136, 214);
+  color: white;
+  align-items: center;
+  height: 50px;
+  width: 600px;
+  font-size: 20px;
+  border: 2px solid black;
+  display: flex;
+  justify-content: space-around;
+  align-content:space-around ;
+  border-radius: 10px;
+}
+
+.fullName {
+ text-align: center;
+}
+
+.campaignName {
+  text-align: center;
+}
+
+.container:hover{
+  background-color: rgba(34, 90, 180, 0.87);
+  color: black;
+}

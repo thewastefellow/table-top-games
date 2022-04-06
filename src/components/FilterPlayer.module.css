@@ -1,0 +1,27 @@
+.container{
+    margin: auto;
+    margin-bottom: 100px;
+    display: flex;
+    font-size: 25px;
+    padding: 10px;
+
+}
+
+.filterContainer{
+    margin: auto;
+}
+
+.label{
+    margin-right: 10px;
+}
+
+.select{
+    font-size: 25px;
+    width: 300px;
+    border-radius: 10px;
+    padding: 5px;
+}
+
+.option{
+    font-size: 25px;
+}

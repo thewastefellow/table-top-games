@@ -1,0 +1,43 @@
+.container {
+  display: flex;
+  flex-direction: row;
+  background-color: bisque;
+  height: 70px;
+  padding: 5px;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 100px;
+}
+
+.linkContainer {
+  margin: auto;
+
+}
+
+/* .link {
+  font-size: 25px;
+  text-decoration: none;
+  color: black;
+} */
+
+/* .linkContainer :hover {
+  background-color: rgb(137, 237, 170);
+  height: 40px;
+  width: 150px;
+} */
+
+.link, link:visited {
+    background-color: #f44336;
+    color: white;
+    padding: 14px 25px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    margin: auto;
+    border-radius: 10px;
+    font-size: 20px;
+  }
+  
+  .link:hover, .link:active {
+    background-color: red;
+  }

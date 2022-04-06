@@ -1,0 +1,78 @@
+.container{
+    display: flex;
+    margin: auto;
+    height: 550px;
+    width: 700px;
+    background-color: azure;
+    font-size: 40px;
+    justify-content: center;
+    flex-direction: column;
+    border-radius: 30px;
+    padding-left: 70px;
+    border: 1px solid black;
+}
+
+.firstName{
+    margin: auto;
+    padding: 5px;
+    margin: 15px;
+    
+}
+
+.lastName{
+    margin: auto;
+    padding: 5px;
+    margin: 15px;
+    
+}
+
+.contactNumber{
+    margin: auto;
+    padding: 5px;
+    margin: 15px;
+   
+}
+.campaignName{
+    margin: auto;
+    padding: 5px;
+    margin: 15px;
+    
+}
+
+.buttonContainer{
+ display: flex;
+ flex-direction: row;
+ justify-content: space-around;
+ margin-top: 50px;
+ margin-bottom: 50px;
+}
+
+.editButton, .editButton:visited {
+    background-color: #45e069;
+    color: white;
+    padding: 14px 25px;
+    text-align: center;
+    text-decoration: none;
+    margin: auto;
+    border-radius: 10px;
+    font-size: 20px;
+  }
+  
+  .editButton:hover, .editButton:active {
+    background-color: rgb(111, 224, 41);
+  }
+
+  .deleteButton, .deleteButton:visited {
+    background-color: #f44336;
+    color: white;
+    padding: 14px 25px;
+    text-align: center;
+    text-decoration: none;
+    margin-right: auto;
+    border-radius: 10px;
+    font-size: 20px;
+  }
+  
+  .deleteButton:hover, .deleteButton:active {
+    background-color: red;
+  }
